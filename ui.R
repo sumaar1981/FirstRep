@@ -76,7 +76,7 @@ shinyUI(fluidPage(
                          p("If you wish to change the input, modify the input in left side-bar panel and click on Apply changes. Accordingly results in other tab will be refreshed
                            ", align = "Justify"),
                          p("Please refer to the link below for sample input file."),
-                         a(href="https://github.com/sumaar1981/TABA_Assignment/blob/master/Nokia_Lumia_reviews.txt"
+                         a(href="https://github.com/sumaar1981/FirstRep/blob/master/iphone_reviews.csv"
                            ,"Sample data input file"),  
                          br(),
                          h5("Note"),
