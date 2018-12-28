@@ -17,7 +17,7 @@ library(tidyr)
 
 shinyUI(fluidPage(
   
- titlePanel("Amazon Reviews text Analysis"),
+ titlePanel("Apple Iphone Reviews text Analysis"),
   
   # Input in sidepanel:
   sidebarPanel(
@@ -70,7 +70,7 @@ shinyUI(fluidPage(
                 #
                 tabPanel("Overview",h4(p("How to use this App")),
                          
-                         p("To use this app you need a amazon reviews corpus in csv format. To do basic Text Analysis of amazon reviews, click on Browse in left-sidebar panel and upload the csv file. 
+                         p("To use this app you need iphone reviews corpus in csv format. To do basic Text Analysis of amazon reviews, click on Browse in left-sidebar panel and upload the csv file. 
                             Once the file is uploaded it will do the computations in back-end with default inputs for Product(iphone model),Rating(1-5),Year(2014-2018) and other sliders.
                              and accordingly results will be displayed in various tabs.", align = "justify"),
                          p("If you wish to change the input, modify the input in left side-bar panel and click on Apply changes. Accordingly results in other tab will be refreshed
